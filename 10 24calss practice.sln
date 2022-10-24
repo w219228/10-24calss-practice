@@ -3,7 +3,55 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hello world", "hello world\hello world.csproj", "{F1906E1B-5FD9-44D2-A01F-EF4249BEFB45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yes or no", "yes or no\yes or no.csproj", "{5759DBCE-903D-4E07-95A5-76135F6F7F8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "調大小", "調大小\調大小.csproj", "{05E5189E-6D12-455A-9F6F-388CAABAB338}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "設定屬性", "設定屬性\設定屬性.csproj", "{6DC61FBE-E307-41AF-AAFD-8CA0DB68E8E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "問候", "問候\問候.csproj", "{D1DF7599-785C-4376-864A-F908A2A88B38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "顯示列數", "顯示列數\顯示列數.csproj", "{E7205A45-FB0C-4711-9952-02DA1A128192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "多個按鈕用同一支副程式", "多個按鈕用同一支副程式\多個按鈕用同一支副程式.csproj", "{69AA63AC-F041-418A-8641-25BF0349227E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1906E1B-5FD9-44D2-A01F-EF4249BEFB45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1906E1B-5FD9-44D2-A01F-EF4249BEFB45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1906E1B-5FD9-44D2-A01F-EF4249BEFB45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1906E1B-5FD9-44D2-A01F-EF4249BEFB45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5759DBCE-903D-4E07-95A5-76135F6F7F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5759DBCE-903D-4E07-95A5-76135F6F7F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5759DBCE-903D-4E07-95A5-76135F6F7F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5759DBCE-903D-4E07-95A5-76135F6F7F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05E5189E-6D12-455A-9F6F-388CAABAB338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E5189E-6D12-455A-9F6F-388CAABAB338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E5189E-6D12-455A-9F6F-388CAABAB338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E5189E-6D12-455A-9F6F-388CAABAB338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DC61FBE-E307-41AF-AAFD-8CA0DB68E8E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DC61FBE-E307-41AF-AAFD-8CA0DB68E8E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DC61FBE-E307-41AF-AAFD-8CA0DB68E8E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DC61FBE-E307-41AF-AAFD-8CA0DB68E8E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1DF7599-785C-4376-864A-F908A2A88B38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1DF7599-785C-4376-864A-F908A2A88B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1DF7599-785C-4376-864A-F908A2A88B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1DF7599-785C-4376-864A-F908A2A88B38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7205A45-FB0C-4711-9952-02DA1A128192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7205A45-FB0C-4711-9952-02DA1A128192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7205A45-FB0C-4711-9952-02DA1A128192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7205A45-FB0C-4711-9952-02DA1A128192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69AA63AC-F041-418A-8641-25BF0349227E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69AA63AC-F041-418A-8641-25BF0349227E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69AA63AC-F041-418A-8641-25BF0349227E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69AA63AC-F041-418A-8641-25BF0349227E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
